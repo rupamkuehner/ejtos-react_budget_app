@@ -7,8 +7,6 @@ const AllocationForm = (props) => {
     const [name, setName] = useState('');
     const [cost, setCost] = useState('');
     const [action, setAction] = useState('');
-
-    const currency = "£"
     
     const submitEvent = () => {
 
